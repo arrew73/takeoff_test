@@ -1,7 +1,6 @@
 import React from "react"
 import './App.css';
 import {connect} from "react-redux";
-import Loader from "react-loader-spinner";
 import {Redirect, Route, Switch} from "react-router-dom";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import LoginPage from "./components/LoginPage/Login";
