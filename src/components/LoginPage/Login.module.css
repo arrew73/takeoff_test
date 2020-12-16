@@ -1,0 +1,16 @@
+.login__page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.login__page button {
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 15px;
+    cursor: pointer;
+}

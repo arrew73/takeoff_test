@@ -1,0 +1,70 @@
+.contacts__container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__table {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #4a6474;
+}
+
+.contacts__table_list {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts__form {
+    margin-top: 20px;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacts__button {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button_delete {
+    background: red;
+    color: white;
+}
+
+.contacts__form button {
+    padding: 0 15px 0 15px;
+}
+
+.contacts__formEdit {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_delete {
+    padding: 8px 12px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    opacity: 0.9;
+}
+
+.btn {
+    margin: 1px;
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 8px 12px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    opacity: 0.9;
+}
+
+.btn:hover, .btn_delete:hover {
+    opacity: 1;
+}
