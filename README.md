@@ -5,3 +5,5 @@
 2.После NPM start
 ##
 3.DONE
+##
+Логин и пароль для приложения: (test@mail.com ,test)
