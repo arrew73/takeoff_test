@@ -11,15 +11,10 @@ class ContactsContainer extends React.Component {
     renderContacts(){
         this.props.getContacts();
     }
+
     componentDidMount() {
         this.renderContacts()
     }
-    //
-    // componentDidUpdate(prevProps, prevState, snapshot) {
-    //     if(this.props.contacts !== prevProps.contacts) {
-    //         this.renderContacts()
-    //     }
-    // }
 
     render() {
         if (!this.props.contacts) {

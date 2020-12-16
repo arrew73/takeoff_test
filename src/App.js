@@ -6,20 +6,9 @@ import {Redirect, Route, Switch} from "react-router-dom";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import LoginPage from "./components/LoginPage/Login";
 import ContactsContainer from "./components/Contacts/ContactsContainer";
-import {getContacts} from "./Redux/Reducers/ContactsReducer";
 
 class App extends React.Component {
     render() {
-        // if(!this.props.isAuthorized) {
-        //     return <div>
-        //         <Loader
-        //         type="TailSpin"
-        //         color="#5c98dc"
-        //         height={250}
-        //         width={250}/>
-        //     </div>
-        // }
-
         return (
             <div className="App-wrapper">
                 <HeaderContainer/>
